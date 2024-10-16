@@ -40,8 +40,8 @@ function IntroSection() {
 
 function LoginForm() {
   return (
-    <div class="login-container">
-      <form class="login-form">
+    <div className="login-container">
+      <form className="login-form">
         <h2>Login</h2>
         <label htmlFor="username">Username</label>
         <input type="text" id="username" name="username" />
